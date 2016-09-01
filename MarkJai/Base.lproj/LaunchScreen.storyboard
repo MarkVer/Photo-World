@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PhotoWorld" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vqw-3p-Rgt">
+                                <rect key="frame" x="188" y="20" width="224" height="43"/>
+                                <fontDescription key="fontDescription" name="ZapfDingbatsITC" family="Zapf Dingbats" pointSize="43"/>
+                                <color key="textColor" red="0.97907799482345581" green="0.18260201811790466" blue="0.01333894394338131" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1456502032_photo_album.png" translatesAutoresizingMaskIntoConstraints="NO" id="IuC-gD-eb1">
+                                <rect key="frame" x="188" y="429" width="224" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1456502297_Instagram.png" translatesAutoresizingMaskIntoConstraints="NO" id="dZc-fy-lHC">
+                                <rect key="frame" x="188" y="261" width="224" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="getLocation.png" translatesAutoresizingMaskIntoConstraints="NO" id="gRn-SO-82C">
+                                <rect key="frame" x="188" y="93" width="224" height="128"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mark" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6EC-V1-nHv">
+                                <rect key="frame" x="20" y="559" width="39" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Juwendsley" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0x-hN-7SB">
+                                <rect key="frame" x="489" y="559" width="91" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.24588740846784513" green="0.35535547828829916" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gRn-SO-82C" firstAttribute="leading" secondItem="Vqw-3p-Rgt" secondAttribute="leading" id="5jc-SR-aK0"/>
+                            <constraint firstItem="Vqw-3p-Rgt" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" constant="20" id="6AY-Ge-u5c"/>
+                            <constraint firstItem="gRn-SO-82C" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8pl-1Q-2Wx"/>
+                            <constraint firstItem="dZc-fy-lHC" firstAttribute="leading" secondItem="gRn-SO-82C" secondAttribute="leading" id="DcE-54-zei"/>
+                            <constraint firstItem="F0x-hN-7SB" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="Ms4-mi-S8E"/>
+                            <constraint firstItem="Vqw-3p-Rgt" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="PhC-VX-eIT"/>
+                            <constraint firstItem="6EC-V1-nHv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="Pyu-lj-WG7"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="F0x-hN-7SB" secondAttribute="bottom" constant="20" id="XYc-Ei-q2K"/>
+                            <constraint firstItem="dZc-fy-lHC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="byW-ff-nqv"/>
+                            <constraint firstItem="IuC-gD-eb1" firstAttribute="top" secondItem="dZc-fy-lHC" secondAttribute="bottom" constant="40" id="dtz-I4-mgc"/>
+                            <constraint firstItem="dZc-fy-lHC" firstAttribute="top" secondItem="gRn-SO-82C" secondAttribute="bottom" constant="40" id="ina-Uh-diq"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="6EC-V1-nHv" secondAttribute="bottom" constant="20" id="sXB-Jo-df1"/>
+                            <constraint firstItem="IuC-gD-eb1" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="vBa-nO-Qer"/>
+                            <constraint firstItem="IuC-gD-eb1" firstAttribute="leading" secondItem="dZc-fy-lHC" secondAttribute="leading" id="yAW-91-M4r"/>
+                            <constraint firstItem="gRn-SO-82C" firstAttribute="top" secondItem="Vqw-3p-Rgt" secondAttribute="bottom" constant="30" id="yC4-Gv-6PJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61" y="379"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1456502032_photo_album.png" width="128" height="128"/>
+        <image name="1456502297_Instagram.png" width="128" height="128"/>
+        <image name="getLocation.png" width="128" height="128"/>
+    </resources>
+</document>
